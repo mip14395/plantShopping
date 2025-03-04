@@ -5,7 +5,10 @@ export default defineConfig({
   plugins: [react()],
   base: "/plantShopping/", // Ensure correct path when deploying to GitHub Pages
   build: {
-    outDir: "dist", // Output directory for production build
+    outDir: "dist",
+    rollupOptions: {
+      input: "/index.html", // Ensures index.html is in the correct place
+    },
   },
   resolve: {
     alias: {
