@@ -6,9 +6,6 @@ export default defineConfig({
   base: "/plantShopping/", // Ensure correct path when deploying to GitHub Pages
   build: {
     outDir: "dist",
-    rollupOptions: {
-      input: "/index.html", // Ensures index.html is in the correct place
-    },
   },
   resolve: {
     alias: {
