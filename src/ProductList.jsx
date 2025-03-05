@@ -342,7 +342,7 @@ function ProductList() {
                       position: "absolute",
                       top: "50%",
                       left: "50%",
-                      transform: "translate(-50%, -50%)", // Căn giữa chính xác
+                      transform: "translate(-50%, -50%)",
                       color: "white",
                       fontSize: "14px",
                       fontWeight: "bold",
